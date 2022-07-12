@@ -9,3 +9,7 @@ def load_first_page(request):
 # load second page
 def load_second_page(request):
     return render(request,'second.html')
+
+# load index page
+def load_index_page(request):
+    return render(request,'index.html')
